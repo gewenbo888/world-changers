@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "World Changers · 世界改变者图鉴" }],
     title: "World Changers — 世界改变者图鉴",
     description:
       "Sixteen paths that changed the world: from the Yellow Emperor to the nameless. Systems and ideas outlive conquest and power.",
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "World Changers — 世界改变者图鉴",
     description:
