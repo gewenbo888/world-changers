@@ -59,6 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800;9..144,900&family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="icon"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2361f5b3'/><text x='50%' y='54%' font-size='17' font-family='Georgia,serif' text-anchor='middle' dominant-baseline='central' fill='%230a0a0c'>W</text></svg>"
+        />
       </head>
       <body>
         <Script
