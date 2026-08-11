@@ -26,7 +26,7 @@ export default function ChangerPage({ params }: { params: { slug: string } }) {
   return (
     <>
       <header className="wrap topbar">
-        <Link className="psi" href="/">Ψ World Changers</Link>
+        <Link href="/">World Changers</Link>
         <span>Atlas Entry {String(index).padStart(2, "0")} / {String(CHANGERS.length).padStart(2, "0")}</span>
       </header>
 
@@ -113,7 +113,7 @@ export default function ChangerPage({ params }: { params: { slug: string } }) {
       <footer>
         <div className="wrap row">
           <Link href="/">← Back to Atlas · 返回图鉴</Link>
-          <Link href="https://psyverse.fun">Ψ Psyverse Portfolio</Link>
+          <Link href="https://psyverse.fun">Psyverse Portfolio</Link>
         </div>
       </footer>
     </>

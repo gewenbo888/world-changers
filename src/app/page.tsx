@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <header className="wrap topbar">
-        <span className="psi">Ψ PSYVERSE</span>
+        <span>PSYVERSE</span>
         <span>World Changers · Atlas</span>
         <span>16 Entries</span>
       </header>
@@ -74,7 +74,7 @@ export default function Home() {
 
       <footer>
         <div className="wrap row">
-          <span>Ψ World Changers · 世界改变者图鉴</span>
+          <span>World Changers · 世界改变者图鉴</span>
           <Link href="https://psyverse.fun">Psyverse Portfolio</Link>
           <span>By Gewenbo</span>
         </div>
